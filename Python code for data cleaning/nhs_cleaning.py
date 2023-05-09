@@ -14,7 +14,7 @@ def clean_nhs_data(data):
                               'MEASURE_VALUE': 'new_referrals_sum'}, inplace=True)
 
     # convert datatypes to strings
-    data_copy[['month', 'id', 'new_referrals_count']] = data_copy[['month', 'id', 'new_referrals_sum']].astype(
+    data_copy[['month', 'id']] = data_copy[['month', 'id']].astype(
         "string")
 
     # remove * values
@@ -37,13 +37,13 @@ def clean_nhs_data(data):
     id_date_filtered_df = date_filtered_df.loc[(data_copy['id'] == 'MHS32')]
 
     # sum up the values to get the total per month
-    # having issues here because its not adding up again to what's on the power bi and i don't know why :(
+    # having issues here because its not adding up again to what's on the power bi and i don't know why
     month_filtered_series = id_date_filtered_df.groupby('month')['new_referrals_sum'].sum()
     CLEANED_DF = pd.DataFrame(month_filtered_series)
 
     return CLEANED_DF
 
 
-data = pd.read_csv("datasets/MHSDS Time_Series_data_Apr_2016_JanPrf_2023.csv")
+data = pd.read_csv("../datasets/MHSDS Time_Series_data_Apr_2016_JanPrf_2023.csv")
 clean_nhs_data(data)
 CLEANED_DF.to_csv('datasets/NHS_data_cleaned.csv', encoding='utf-8')

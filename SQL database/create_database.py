@@ -17,7 +17,7 @@ mycursor.execute("CREATE DATABASE popular_tracks_and_features")
 # Switch to the created database:
 mycursor.execute("USE popular_tracks_and_features")
 
-# Create a table:
+# Create the first table:
 create_table1_query = """
 CREATE TABLE isrc_table (
     isrc VARCHAR(255) NOT NULL PRIMARY KEY,
@@ -30,16 +30,17 @@ mycursor.execute(create_table1_query)
 # Use the csv file to insert values to the table
 with open('../datasets/unique_isrc.csv', 'r', newline='', encoding='utf-8') as file:
     csv_data = file.readlines()
+    # skip the first header row
     for line in csv_data[1:]:
         values = line.strip().split(',')
 
         # Prepare the insert query with the correct format
         insert_query = "INSERT INTO isrc_table (isrc, title, artist) VALUES (%s, %s, %s)"
 
-        # Pass the converted date value to the execute method
+        # Pass the values to the execute method
         mycursor.execute(insert_query, values)
 
-# Create another table:
+# Create the second table:
 create_table2_query = """
 CREATE TABLE tracks_in_charts (
     dates DATE,
@@ -47,7 +48,7 @@ CREATE TABLE tracks_in_charts (
     title VARCHAR(255),
     artist VARCHAR(255),
     label VARCHAR(255),
-    isrc VARCHAR(255),
+    isrc CHAR(12),
     FOREIGN KEY (isrc) REFERENCES isrc_table(isrc)
 )
 """
@@ -90,7 +91,7 @@ with open('../datasets/isrc_spotify_ids.csv', 'r', newline='', encoding='utf-8')
         # Prepare the insert query with the correct format
         insert_query = "INSERT INTO spotify_table (isrc, artist, artist_spotify_id, track_name, track_spotify_id) VALUES (%s, %s, %s, %s, %s)"
 
-        # Pass the converted date value to the execute method
+        # Pass the values to the execute method
         mycursor.execute(insert_query, values)
 
 # Create a new table that contains track features and moods:
@@ -129,9 +130,10 @@ with open('../datasets/track_audio_features_plus_mood_analysis.csv', 'r', newlin
                        "duration_ms, energy, instrumentalness, `key`, liveness, loudness, `mode`, speechiness, tempo, " \
                        "time_signature, valence, mood) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
-        # Pass the converted date value to the execute method
+        # Pass the values to the execute method
         mycursor.execute(insert_query, values)
-# Commit the changes and close the connection:
 
+# Commit all the changes
 mydb.commit()
+# close the connection to the database
 mydb.close()

@@ -7,6 +7,6 @@ df.insert(loc=0, column='year', value=year)
 df['month'] = df.month.str[5:7]
 df.drop(df.filter(regex="Unname"),axis=1, inplace=True)
 
-df.to_csv('NHS_manual_data_cleaned_reformat.csv', encoding='utf-8',index=False)
+df.to_csv('NHS_manual_data_cleaned_reformat.csv', encoding='utf-8', index=False)
 df2 = pd.read_csv('NHS_manual_data_cleaned_reformat.csv')
 df2.tail()

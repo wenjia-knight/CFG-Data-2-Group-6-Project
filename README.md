@@ -10,3 +10,4 @@ Please make sure you have installed the following Python packages before running
 - Spotipy
 - xlrd
 - mysql-connector-python
+- beautifulsoup4

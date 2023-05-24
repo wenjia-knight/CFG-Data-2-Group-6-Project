@@ -1,4 +1,4 @@
-![image](Jupyter Notebooks/images/grouplogocolour.png "group logo")
+![image](https://github.com/wenjia-knight/CFG-Data-2-Group-6-Project/blob/main/Jupyter%20Notebooks/images/grouplogocolour.png "group logo")
 
 # CFG-Data-2-Group-6-Project
 This repo contains datasets, Python scripts and Jupyter Notebooks used for Group 6 Project as part of the CFGDegree (Data stream) in Spring 2023.

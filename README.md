@@ -88,12 +88,22 @@ This page explains how to create your authorisation  <a href="https://developer.
 
 Then simply input your credentials when you see a CLIENT ID and CLIENT SECRET variable or in the config file if available. 
 
-## How to Run
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Lectus urna duis convallis convallis tellus id interdum. Ipsum dolor sit amet consectetur adipiscing elit.
-Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. 
-Ut tortor pretium viverra suspendisse potenti.
-Nulla malesuada pellentesque elit eget gravida cum sociis natoque.
+## mySQL database
+To connect to mySQL database, please use your own root password and replace 'PASSWORD' in the config file in `SQL database` folder. 
+
+## How to Run       
+
+To get started, please clone the repository to your local machine. Run through the Jupyter Notebooks saved in `Jupyter Notebooks/03_data_analysis_and_visualisation_notebooks` to see the analysis and visualisation of the data shown in the report. 
+All data used in this project is saved in the `Datasets` folder. 
+
+Other folders in this repository are as follows (used to create the datasets):
+
+- `01_data_preprocessing_notebooks` contains the notebooks used to classify music moods using Machine Learning.
+- `02_data_cleaning_notebooks` contains the notebooks used to clean the NHS data and popular track moods data.
+- `Python code for NHS data cleaning` contains the Python scripts used to clean the NHS data.
+- `Python codes for web scraping & API` contains the Python scripts used to scrape the data from the Official Charts website and get audio features from the Spotify API.
+- `SQL database` contains the Python script used to create the database and Juypter Notebook used to general some example queries. Please note SQL database was not used in this project. It was 
+created to show the process of creating a database and how to query the data.
 
 ## Status
 

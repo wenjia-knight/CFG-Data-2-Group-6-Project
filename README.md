@@ -98,8 +98,8 @@ All data used in this project is saved in the `Datasets` folder.
 
 Other folders in this repository are as follows (used to create the datasets):
 
-- `01_data_preprocessing_notebooks` contains the notebooks used to classify music moods using Machine Learning.
-- `02_data_cleaning_notebooks` contains the notebooks used to clean the NHS data and popular track moods data.
+- `Jupyter Notebooks/01_data_preprocessing_notebooks` contains the notebooks used to classify music moods using Machine Learning.
+- `Jupyter Notebooks/02_data_cleaning_notebooks` contains the notebooks used to clean the NHS data and popular track moods data.
 - `Python code for NHS data cleaning` contains the Python scripts used to clean the NHS data.
 - `Python codes for web scraping & API` contains the Python scripts used to scrape the data from the Official Charts website and get audio features from the Spotify API.
 - `SQL database` contains the Python script used to create the database and Juypter Notebook used to generate some example queries. Please note SQL database was not used in this project. It was 

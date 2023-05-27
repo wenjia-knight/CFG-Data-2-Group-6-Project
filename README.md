@@ -34,6 +34,7 @@ Please make sure you have installed the following Python packages before running
 - requests
 - plotly
 - joblib
+- tabulate
 
 ## Files
 

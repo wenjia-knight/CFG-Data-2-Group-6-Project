@@ -112,9 +112,11 @@ created to show the process of creating a database and how to query the data.
 IN PROGRESS
 
 ## Creators
+<a href="https://github.com/tum-wade" target="_blank">Autumn</a>   
+<a href="https://github.com/amix1587" target="_blank">Ami</a>  
+<a href="https://github.com/mordents" target="_blank">Isobel</a>    
+<a href="https://github.com/ishaibrahim" target="_blank">Isha</a>   
 <a href="https://github.com/wenjia-knight" target="_blank">Wenjia</a>  
-<a href="https://github.com/tum-wade" target="_blank">Autumn</a>  
-<a href="https://github.com/mordents" target="_blank">Isobel</a>  
-<a href="https://github.com/vilma-s1" target="_blank">Vilma</a>  
-<a href="https://github.com/ishaibrahim" target="_blank">Isha</a>  
-<a href="https://github.com/amix1587" target="_blank">Ami</a>
+<a href="https://github.com/vilma-s1" target="_blank">Vilma</a>     
+ 
+

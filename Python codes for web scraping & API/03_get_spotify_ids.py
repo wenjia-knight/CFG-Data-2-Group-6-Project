@@ -55,4 +55,4 @@ def get_spotify_id(input_file_path, output_file_path):
                        content.writerow([row['isrc'], artist_name, '', track_name, ''])
 
 if __name__ == '__main__':
-    get_spotify_id(input_file_path = 'unique_isrc.csv', output_file_path = 'isrc_spotify_ids.csv')
+    get_spotify_id(input_file_path = '../datasets/unique_isrc.csv', output_file_path = '../datasets/isrc_spotify_ids.csv')

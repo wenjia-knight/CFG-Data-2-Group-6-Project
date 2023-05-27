@@ -50,4 +50,4 @@ def get_audio_feature(input_file_path, output_file_path):
                                   key, liveness, loudness, mode, speechiness, tempo, time_signature, valence])
 
 if __name__ == '__main__':
-    get_audio_feature(input_file_path = 'isrc_spotify_ids.csv', output_file_path = 'track_audio_features.csv')
+    get_audio_feature(input_file_path = '../datasets/isrc_spotify_ids.csv', output_file_path = '../datasets/track_audio_features.csv')

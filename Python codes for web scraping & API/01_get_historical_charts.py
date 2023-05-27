@@ -9,7 +9,7 @@ import requests
 import bs4
 import csv
 
-with open('uk_top_singles_chart.csv', 'a', newline='') as output:
+with open('../datasets/uk_top_singles_chart.csv', 'a', newline='') as output:
     content = csv.writer(output)
     column_names = ['date', 'position', 'title', 'artist', 'label', 'isrc']
     content.writerow(column_names)
@@ -68,7 +68,7 @@ def get_tracks(url):
     link = 'http://www.officialcharts.com/' + link
 
     # write weekly singles to CSV, appending to existing file
-    with open('uk_top_singles_chart.csv', 'a', newline='', encoding='utf-8') as output:
+    with open('../datasets/uk_top_singles_chart.csv', 'a', newline='', encoding='utf-8') as output:
         content = csv.writer(output)
         content.writerows(all_tracks)
 

@@ -35,4 +35,4 @@ def get_unique_isrc(input_file_path, output_file_path):
             content.writerow([isrc, title, artist])
 
 if __name__ == '__main__':
-    get_unique_isrc(input_file_path = 'uk_top_singles_chart.csv', output_file_path = 'unique_isrc.csv')
+    get_unique_isrc(input_file_path = '../datasets/uk_top_singles_chart.csv', output_file_path = '../datasets/unique_isrc.csv')

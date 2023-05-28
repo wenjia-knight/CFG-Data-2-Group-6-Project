@@ -15,11 +15,11 @@ This repo contains datasets, Python scripts and Jupyter Notebooks used for Group
 * [Files](#files)
 * [Spotify API](#Spotifyapi)
 * [How to Run](#howto)
-* [Status](#status)
-* [Creators](#creators)
+* [Project status](#Project status)
+* [Authors and Acknowledgment](#Authors and Acknowledgment)
 
 ## Information
-For a detailed report on the questions we are trying to answer and our approach to this analysis please see the ***ProjectReport.pdf***
+For a detailed report on the questions we are trying to answer and our approach to this analysis please see the ***Group 6 Project Report.pdf***
 
 ## Tools and Technologies Used
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)

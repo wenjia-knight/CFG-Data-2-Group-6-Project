@@ -15,8 +15,8 @@ This repo contains datasets, Python scripts and Jupyter Notebooks used for Group
 * [Files](#files)
 * [Spotify API](#Spotifyapi)
 * [How to Run](#howto)
-* [Project status](#Project status)
-* [Authors and Acknowledgment](#Authors and Acknowledgment)
+* [Project status](#Project status)  
+* [Authors and Acknowledgment](#Authors and Acknowledgment)  
 
 ## Information
 For a detailed report on the questions we are trying to answer and our approach to this analysis please see the ***Group 6 Project Report.pdf***

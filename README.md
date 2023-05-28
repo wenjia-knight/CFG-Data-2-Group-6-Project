@@ -9,14 +9,15 @@ This repo contains datasets, Python scripts and Jupyter Notebooks used for Group
 -----
 
 ## Table of contents
-* [Information](#info)
+* [Information](#information)
 * [Tools and Technologies Used](#tools-and-technologies-used)
 * [Requirements](#requirements)
 * [Files](#files)
-* [Spotify API](#Spotifyapi)
-* [How to Run](#howto)
-* [Project status](#Project status)  
-* [Authors and Acknowledgment](#Authors and Acknowledgment)  
+* [Spotify API](#spotify-api)
+* [mySQL database](#mysql-database)
+* [How to Run](#how-to-run)
+* [Project status](#project-status)  
+* [Authors and Acknowledgment](#authors-and-acknowledgment)  
 
 ## Information
 For a detailed report on the questions we are trying to answer and our approach to this analysis please see the ***Group 6 Project Report.pdf***

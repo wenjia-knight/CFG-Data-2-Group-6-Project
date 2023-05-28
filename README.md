@@ -60,6 +60,7 @@ Please make sure you have installed the following Python packages before running
 
     ├── Project Report 
       └── Group 6 Project Report.pdf
+      └── Group 6 Project Presentation.pdf
 
     ├── Jupyter Notebooks 
       └── 01_data_preprocessing_notebooks

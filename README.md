@@ -59,9 +59,7 @@ Please make sure you have installed the following Python packages before running
 ## Files
 
     ├── Project Report 
-      └── 1. ProjectReport.pdf 
-      └── 2. ProjectLog.pdf
-      └── 3. ProjectPresentation.pdf
+      └── Group 6 Project Report.pdf
 
     ├── Jupyter Notebooks 
       └── 01_data_preprocessing_notebooks

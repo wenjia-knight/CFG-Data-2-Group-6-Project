@@ -120,10 +120,6 @@ Other folders in this repository are as follows (used to create the datasets):
 - `SQL database` contains the Python script used to create the database and Juypter Notebook used to generate some example queries. Please note SQL database was not used in this project. It was 
 created to show the process of creating a database and how to query the data.
 
-## Status
-
-IN PROGRESS
-
 ## Creators
 <a href="https://github.com/tum-wade" target="_blank">Autumn</a>   
 <a href="https://github.com/amix1587" target="_blank">Ami</a>  

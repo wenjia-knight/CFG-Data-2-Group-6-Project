@@ -118,7 +118,15 @@ Other folders in this repository are as follows (used to create the datasets):
 - `SQL database` contains the Python script used to create the database and Juypter Notebook used to generate some example queries. Please note SQL database was not used in this project. It was 
 created to show the process of creating a database and how to query the data.
 
-## Creators
+## Project status
+
+This project is now completed. However, to further build on the amazing work that has already been done,
+here are some ideas to expand this project in future:
+
+- Increase our data sizes, more data points would help establish findings more conclusively.
+- Include more mood classes, four mood classes is not really enough detail to describe all music tracks.
+
+## Authors and Acknowledgment
 <a href="https://github.com/tum-wade" target="_blank">Autumn</a>   
 <a href="https://github.com/amix1587" target="_blank">Ami</a>  
 <a href="https://github.com/mordents" target="_blank">Isobel</a>    

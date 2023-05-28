@@ -62,7 +62,6 @@ Please make sure you have installed the following Python packages before running
       └── 1. ProjectReport.pdf 
       └── 2. ProjectLog.pdf
       └── 3. ProjectPresentation.pdf
-      
 
     ├── Jupyter Notebooks 
       └── 01_data_preprocessing_notebooks
@@ -70,9 +69,8 @@ Please make sure you have installed the following Python packages before running
         └── 02_ML_spotify.ipynb
       └── 02_data_cleaning_notebooks
         └── 01_charts_and_moods_cleaning.ipynb
-        └── 02_Cleaning NHS Data - Attempt 1 & 3.ipynb
-        └── 03_Cleaning NHS Data - Attempt 2.ipynb
-        └── 04_NHS_manual_data_cleaning_notebook.ipynb
+        └── 02_cleaning_NHS_data_attempts_1&3.ipynb
+        └── 03_NHS_manual_data_cleaning_notebook.ipynb
       └── 03_data_analysis_and_visualisation_notebooks 
         └── 01_popular_tracks_data_analysis_final_Vilma.ipynb
         └── 02_Mood_Data_Visualisations_Isobel.ipynb
@@ -80,13 +78,8 @@ Please make sure you have installed the following Python packages before running
         └── 04_Statistical_Exploration_MH_data.ipynb
       └── Images
 
-
     ├── Python code for NHS data cleaning
-      └── nhs_cleaning2.py
-      └── NHS_data_cleaning_code_1.py
       └── NHS_data_cleaning_code_2.py
-      └── NHS_data_cleaning_code_3.py
-      └── NHS_data_cleaning_code_manual.py
 
     ├── Python codes for web scraping & API
       └── 01_get_historical_charts.py
